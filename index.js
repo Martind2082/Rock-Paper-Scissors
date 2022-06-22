@@ -61,13 +61,13 @@ document.querySelectorAll('.rps').forEach(val => {
         let pic2;
         setTimeout(() => {
             pic1 = document.createElement('div');
-            pic1.innerHTML = `<img src="./${hanswer}.png"></img>`;
+            pic1.innerHTML = `<img class='rps' src="./${hanswer}.png"></img>`;
             pic1.style.position = 'absolute';
             pic1.classList.add('leftpic');
             secret.append(pic1);
     
             pic2 = document.createElement('div');
-            pic2.innerHTML = `<img src="./${roboanswer}.png"></img>`;
+            pic2.innerHTML = `<img class='rps' src="./${roboanswer}.png"></img>`;
             pic2.style.position = 'absolute';
             pic2.classList.add('rightpic');
             secret.append(pic2);

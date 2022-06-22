@@ -204,7 +204,15 @@ img {
     }
     #fight {
         position: absolute;
-        left: 38%;
+        top: 0;
+        left: 32%;
         width: 30%;
+    }
+    .pr {
+        height: 30vh;
+    }
+    .rps {
+        height: 30vh;
+        max-width: 40vw;
     }
 }
