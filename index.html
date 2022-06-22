@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors!</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="visible">
+        <h1>Rock Paper Scissors!</h1>
+        <h3>Choose wisely</h3>
+        <div id="score">
+            <p id="score1">Your score: 0</p>
+            <p id="score2">Computer score: 0</p>
+            <button id="reset">Reset scores</button>
+        </div>
+        <div id="choices">
+            <img id='0' class="rps rock" src="./rock.png" alt="rock">
+            <img id="1" class="rps paper" src="./paper.png" alt="paper">
+            <img id="2" class="rps scissors" src="./scissors.png" alt="scissors">
+        </div>
+    </div>
+    <div id="secret">
+        <p id="fight">FIGHT!</p>
+        <div id="result"></div>
+        <div id="characters">
+            <img id="person" class="pr" src="./person.png" alt="person">
+            <img id="robot" class="pr" src="./robot.png" alt="robot">            
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
